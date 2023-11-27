@@ -1,4 +1,4 @@
-name: Deploy to Docker Hub
+name: Deploy to Docker Hub and to GHCR
 
 on:
   push:
@@ -32,4 +32,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            josetorronteras/matterport-dl:latest 
+            josetorronteras/matterport-dl:latest
